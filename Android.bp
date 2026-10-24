@@ -9590,7 +9590,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libhidlbase",
                 "libutils",
-                "vendor.qti.hardware.wifidisplaysession@1.0",
+                "vendor.qti.hardware.wifidisplaysession@1.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -23722,7 +23722,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libwfdsourcesession_proprietary",
-                "vendor.qti.hardware.wifidisplaysession@1.0",
+                "vendor.qti.hardware.wifidisplaysession@1.0_vendor",
                 "libwfdcommonutils_proprietary",
                 "libhidlbase",
                 "libc++",
@@ -28386,7 +28386,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.wifidisplaysession@1.0",
+    name: "vendor.qti.hardware.wifidisplaysession@1.0_vendor",
+    stem: "vendor.qti.hardware.wifidisplaysession@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -28428,7 +28429,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libutils",
                 "libcutils",
-                "vendor.qti.hardware.wifidisplaysession@1.0",
+                "vendor.qti.hardware.wifidisplaysession@1.0_vendor",
                 "libwfdsessionmodule",
                 "liblog",
                 "libc++",
@@ -35953,7 +35954,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/wifidisplayhalservice",
             ],
             shared_libs: [
-                "vendor.qti.hardware.wifidisplaysession@1.0",
+                "vendor.qti.hardware.wifidisplaysession@1.0_vendor",
                 "vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl",
                 "libhidlbase",
                 "libutils",
