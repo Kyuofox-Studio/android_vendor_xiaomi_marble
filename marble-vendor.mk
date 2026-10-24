@@ -524,7 +524,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/modemManager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/modemManager.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
-    vendor/xiaomi/marble/proprietary/vendor/etc/init/poweropt-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/poweropt-service.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/qapeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qapeservice.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/qconfig.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qconfig.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
@@ -628,11 +627,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/noRil/apq_excluded_telephony_features.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/pwr/PSMPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PSMPowerOptFeature.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/pwr/StandbyFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/StandbyFeature.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/pwr/VendorScenarioPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VendorScenarioPowerOptFeature.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
     vendor/xiaomi/marble/proprietary/vendor/etc/qcril_database/upgrade/config/10.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/10.0_config.sql \
     vendor/xiaomi/marble/proprietary/vendor/etc/qcril_database/upgrade/config/11.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/11.0_config.sql \
@@ -1202,10 +1196,7 @@ PRODUCT_PACKAGES += \
     libperfioctl \
     libperipheral_client \
     libplatformconfig \
-    libpowercallback \
-    libpowercore \
     libpsi \
-    libpsmoptfeature \
     libqc2audio_base \
     libqc2audio_basecodec \
     libqc2audio_core \
@@ -1231,7 +1222,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_platform \
     libqcodec2_utils \
     libqcodec2_v4l2codec \
-    libqconfigclient \
     libqcrilDataModule \
     libqcrilNr \
     libqcrilNrFramework \
@@ -1318,7 +1308,6 @@ PRODUCT_PACKAGES += \
     libsnsapi \
     libsnsdiaglog \
     libsoc_helper \
-    libsoc_helper_jni \
     libspcom \
     libspl \
     libssc \
@@ -1341,16 +1330,12 @@ PRODUCT_PACKAGES += \
     libtinyxml2_1 \
     libtrustedapploader \
     libultrasound_notify \
-    libvendorscenariopoweroptfeature \
-    libvideooptfeature \
     libvideotxr \
     libvideoutils \
     libvmmem \
-    libvppclient \
     libvppcommon \
     libvpphcp \
     libvpphvx \
-    libvppimmotion \
     libvpplibrary \
     libvpptestutils \
     libwms \
@@ -1447,7 +1432,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.pal@1.0-impl \
     vendor.qti.hardware.pal@1.0 \
-    vendor.qti.hardware.power.powermodule@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.qccsyshal@1.1 \
     vendor.qti.hardware.qccvndhal@1.0-halimpl \
@@ -1860,7 +1844,6 @@ PRODUCT_PACKAGES += \
     libsfeShiftExtrapolation \
     libsilkyscrolls \
     libsplh \
-    libstandbyfeature \
     libsupermoon \
     libswregistrationalgo \
     libsxrcryptoimpl \
@@ -2068,9 +2051,7 @@ PRODUCT_PACKAGES += \
     IWlanService \
     SoterService \
     TimeService \
-    TrustZoneAccessService \
     com.qualcomm.qti.gpudrivers.taro.api32 \
-    powermodule_java \
     uimgbaservice \
     AtFwd2 \
     ImsRcsService \
@@ -2120,7 +2101,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss-service.xml \
     vendor.qti.hardware.perf.xml \
-    vendor.qti.hardware.power.powermodule.xml \
     vendor.qti.hardware.qconfig@1.0-service.xml \
     vendor.qti.hardware.qxr-service.xml \
     vendor.qti.hardware.radio.ims.xml \
@@ -2214,13 +2194,11 @@ PRODUCT_PACKAGES += \
     pnscr-rf \
     port-bridge \
     power_off_alarm \
-    poweropt-service \
     ppd \
     qcom-system-daemon \
     qdcmss \
     qesdk-manager \
     qguard \
-    qmi_test_mt_client_init_instance \
     qmipriod \
     qms \
     qrtr-ns \
@@ -2242,7 +2220,6 @@ PRODUCT_PACKAGES += \
     ssr_diag \
     ssr_setup \
     subsystem_ramdump \
-    test-nusensors \
     tftp_server \
     thermal-engine-v2 \
     time_daemon \
