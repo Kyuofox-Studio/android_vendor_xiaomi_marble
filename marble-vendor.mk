@@ -1190,7 +1190,6 @@ PRODUCT_PACKAGES += \
     libperfgluelayer \
     libperfioctl \
     libperipheral_client \
-    libpsi \
     libqc2audio_base \
     libqc2audio_basecodec \
     libqc2audio_core \
