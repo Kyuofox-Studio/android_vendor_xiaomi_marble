@@ -16191,6 +16191,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libqtikeymint.so",
             ],
             shared_libs: [
+                "android.hardware.security.rkp-V3-ndk",
                 "liblog",
                 "libcrypto",
                 "libhidlbase",
@@ -16218,6 +16219,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libqtikeymint.so",
             ],
             shared_libs: [
+                "android.hardware.security.rkp-V3-ndk",
                 "liblog",
                 "libcrypto",
                 "libhidlbase",
@@ -45522,6 +45524,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/android.hardware.security.keymint-service-qti",
             ],
             shared_libs: [
+                "android.hardware.security.rkp-V3-ndk",
                 "liblog",
                 "libcutils",
                 "libbase",
