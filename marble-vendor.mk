@@ -531,9 +531,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/qms.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qms.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
-    vendor/xiaomi/marble/proprietary/vendor/etc/init/qvrd_vndr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qvrd_vndr.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
-    vendor/xiaomi/marble/proprietary/vendor/etc/init/sxrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sxrd.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/trusteduilistener.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trusteduilistener.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
@@ -636,33 +634,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql \
     vendor/xiaomi/marble/proprietary/vendor/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql \
     vendor/xiaomi/marble/proprietary/vendor/etc/qguard.json:$(TARGET_COPY_OUT_VENDOR)/etc/qguard.json \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/339/0/65536/mtp855.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/339/0/65536/mtp855.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/339/0/65536/mtp855_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/339/0/65536/mtp855_6dof_config.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/356/0/65536/mtp865.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/0/65536/mtp865.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/356/0/65536/mtp865_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/0/65536/mtp865_6dof_config.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/356/1/131072/morpheus.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/1/131072/morpheus.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/356/1/131072/morpheus_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/1/131072/morpheus_6dof_config.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/356/1/65536/trinity.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/1/65536/trinity.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/356/1/65536/trinity_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/356/1/65536/trinity_6dof_config.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/415/0/131072/mtplahaina.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/131072/mtplahaina.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/415/0/131072/mtplahaina_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/131072/mtplahaina_6dof_config.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/415/0/65536/mtplahaina.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/65536/mtplahaina.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/415/0/65536/mtplahaina_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/415/0/65536/mtplahaina_6dof_config.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/457/0/65536/mtpwaipio.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65536/mtpwaipio.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/457/0/65536/mtpwaipio_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65536/mtpwaipio_6dof_config.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/457/0/65536/mtpwaipio_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65536/mtpwaipio_qvr_3dof_tracker_config.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/457/0/65537/mtpwaipio.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65537/mtpwaipio.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/457/0/65537/mtpwaipio_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65537/mtpwaipio_6dof_config.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/457/0/65537/mtpwaipio_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/0/65537/mtpwaipio_qvr_3dof_tracker_config.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/457/3/65536/mtpwaipio.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65536/mtpwaipio.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/457/3/65536/mtpwaipio_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65536/mtpwaipio_6dof_config.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/457/3/65536/mtpwaipio_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65536/mtpwaipio_qvr_3dof_tracker_config.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/457/3/65537/mtpwaipio.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65537/mtpwaipio.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/457/3/65537/mtpwaipio_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65537/mtpwaipio_6dof_config.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/cfg/457/3/65537/mtpwaipio_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/457/3/65537/mtpwaipio_qvr_3dof_tracker_config.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/qvr_hid_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_hid_device_list.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/qvr_usb_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_usb_device_list.txt \
-    vendor/xiaomi/marble/proprietary/vendor/etc/qvr/qvrservice_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_config.txt \
     vendor/xiaomi/marble/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/c2audio.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.base-arm.policy \
@@ -678,9 +649,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdk.policy \
     vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
-    vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/qvr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qvr@2.0.policy \
     vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/sensors-qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/sensors-qesdk.policy \
-    vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/sxr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/sxr@2.0.policy \
     vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
     vendor/xiaomi/marble/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
@@ -1152,7 +1121,6 @@ PRODUCT_PACKAGES += \
     libAF \
     libAlacSwDec \
     libApeSwDec \
-    libDspIOProxy_stub \
     libEvrcSwCodec \
     libFace3DTA \
     libFace3D_hlos \
@@ -1162,7 +1130,6 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libMapService \
     libMiMotion \
     libQ6MSFR_manager_stub \
     libQSEEComAPI \
@@ -1172,9 +1139,7 @@ PRODUCT_PACKAGES += \
     libQnnHtpAltPrepV69Stub \
     libQtiRilLoadable \
     libSNPE \
-    libScenescape \
     libSnpeHtpV69Stub \
-    libStereoRectifyWrapper \
     libTouchInputVM \
     libTrueSight \
     libTrustedInput \
@@ -1293,7 +1258,6 @@ PRODUCT_PACKAGES += \
     libembmsservice \
     libeva \
     libeva_util \
-    libeye_tracking_dsp_sample_stub \
     libface3d_dev \
     libfastcrc \
     libfastcvdsp_stub \
@@ -1304,7 +1268,6 @@ PRODUCT_PACKAGES += \
     libgnsspps \
     libgoodixhwfingerprint \
     libgrpc++_unsecure \
-    libhalide_hexagon_host \
     libhdr10plus \
     libhdr_backlight_adapter \
     libhdr_tm \
@@ -1511,11 +1474,6 @@ PRODUCT_PACKAGES += \
     libqtikeymaster4 \
     libqtikeymint \
     libquickcamera \
-    libqvr_cam_cdsp_driver_stub \
-    libqvr_cdsp_driver_stub \
-    libqvr_eyetracking_plugin \
-    libqvrcamera_client.qti \
-    libqvrservice_client.qti \
     librcc \
     librcmask \
     librelight_only \
@@ -1569,8 +1527,6 @@ PRODUCT_PACKAGES += \
     libsubsystem_control \
     libsupermoon \
     libswregistrationalgo \
-    libsxrcryptoimpl \
-    libsxrservice \
     libsynergy_loc_api \
     libsynx \
     libsys_info_cache \
@@ -1581,7 +1537,6 @@ PRODUCT_PACKAGES += \
     libthreadutils \
     libtime_genoff \
     libtinyxml2_1 \
-    libtracker_6dof_impl \
     libtrustedapploader \
     libturboschedmanager \
     libubifocus \
@@ -1722,7 +1677,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qconfig@1.0 \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
-    vendor.qti.hardware.qxr-V1-ndk_platform \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.atcmdfwd@1.0 \
     vendor.qti.hardware.radio.ims-V7-ndk_platform \
@@ -2005,7 +1959,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss-service.xml \
     vendor.qti.hardware.perf.xml \
     vendor.qti.hardware.qconfig@1.0-service.xml \
-    vendor.qti.hardware.qxr-service.xml \
     vendor.qti.hardware.radio.ims.xml \
     vendor.qti.hardware.servicetracker@1.2-service.xml \
     vendor.qti.hardware.vpp@2.0-service.xml \
@@ -2032,7 +1985,6 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service-qti \
     qconfigservice \
     qcrilNrd \
-    sxrservice \
     vendor.display.color@1.0-service \
     vendor.qti.camera.provider@2.7-service_64 \
     vendor.qti.esepowermanager@1.1-service \
@@ -2090,8 +2042,6 @@ PRODUCT_PACKAGES += \
     qti \
     qtigetprop \
     qtisetprop \
-    qvrdatalogger \
-    qvrservicetest64 \
     rmt_storage \
     sensors-qesdk \
     sensors.qti \
