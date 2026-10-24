@@ -1999,8 +1999,6 @@ PRODUCT_PACKAGES += \
     dataconnection-saidl.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_lahaina_identity.xml \
-    manifest_non_qmaa.xml \
-    manifest_non_qmaa_extn.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
     qtiradio-saidl.xml \
     vendor.qti.diag.hal.service.xml \
