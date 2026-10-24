@@ -569,8 +569,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc \
-    vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc \
-    vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vmmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vmmgr.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
@@ -1471,8 +1469,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.mlipay@1.1 \
     vendor.xiaomi.hardware.mtdservice@1.0 \
     vendor.xiaomi.hardware.quickcamera@1.0 \
-    vendor.xiaomi.sensor.citsensorservice@1.1 \
-    vendor.xiaomi.sensor.citsensorservice@2.0 \
     libeai_fixed_32 \
     com.qti.actuator.marble_ofilm_ov64b40_gt9764_wide_actuator \
     com.qti.eeprom.marble_ofilm_gc02m1_p24c64f_macro_i_eeprom \
@@ -1652,7 +1648,6 @@ PRODUCT_PACKAGES += \
     com.qti.chi.override \
     fingerprint.goodix.default \
     vendor.qti.hardware.wifidisplaysession@1.0-impl \
-    vendor.xiaomi.sensor.citsensorservice@2.0-impl \
     jcos_nq_client-v1 \
     libDspIOProxy_stub \
     libFileMux_proprietary \
@@ -1856,7 +1851,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
-    vendor.xiaomi.sensor.communicate@1.0 \
     vendor_lib_rfsa_adsp_bm2n00_bin \
     vendor_lib_rfsa_adsp_bm2n01_bin \
     vendor_lib_rfsa_adsp_bm2n02_bin \
@@ -2063,8 +2057,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.2-service.xml \
     vendor.qti.hardware.vpp@2.0-service.xml \
     vendor.xiaomi.hardware.quickcamera@1.0-service.xml \
-    vendor.xiaomi.sensor.citsensorservice@2.0-service.xml \
-    vendor.xiaomi.sensor.communicate@1.0_manifest.xml \
     vendor.qti.qccsyshal_aidl-service.xml \
     ATFWD-daemon \
     SoterProvisioningTool \
@@ -2114,8 +2106,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.psiclient@1.0-service \
     vendor.qti.secure_element@1.2-service \
     vendor.xiaomi.hardware.quickcamera@1.0-service \
-    vendor.xiaomi.sensor.citsensorservice@2.0-service \
-    vendor.xiaomi.sensor.communicate@1.0-service \
     ims_rtp_daemon \
     imsdaemon \
     init.qcom.sensors \
