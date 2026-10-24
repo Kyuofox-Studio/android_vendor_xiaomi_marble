@@ -48,8 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/acdbdata/ukee_mtp/MTP_ukee_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ukee_mtp/MTP_ukee_workspaceFileXml.qwsp \
     vendor/xiaomi/marble/proprietary/vendor/etc/acdbdata/ukee_qrd/QRD_ukee_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ukee_qrd/QRD_ukee_acdb_cal.acdb \
     vendor/xiaomi/marble/proprietary/vendor/etc/acdbdata/ukee_qrd/QRD_ukee_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ukee_qrd/QRD_ukee_workspaceFileXml.qwsp \
-    vendor/xiaomi/marble/proprietary/vendor/etc/audio_cloud_control_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_cloud_control_white_list.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/backend_conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/backend_conf.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/camera/102_SummerDay.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/102_SummerDay.png \
     vendor/xiaomi/marble/proprietary/vendor/etc/camera/103_Fantasy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/103_Fantasy.png \
     vendor/xiaomi/marble/proprietary/vendor/etc/camera/104_Meet.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/104_Meet.png \
@@ -552,7 +550,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vmmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vmmgr.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
-    vendor/xiaomi/marble/proprietary/vendor/etc/kvh2xml.xml:$(TARGET_COPY_OUT_VENDOR)/etc/kvh2xml.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/marble/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/marble/proprietary/vendor/etc/mdss_dsi_m16t_36_02_0a_dsc_vid_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_m16t_36_02_0a_dsc_vid_mi.xml \
@@ -1042,7 +1039,6 @@ PRODUCT_PACKAGES += \
     deviceInfoServiceModuleNr \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
-    audio.primary.taro \
     camera.qcom \
     camera.xiaomi \
     com.dsi.ant@1.0-impl \
@@ -1104,7 +1100,6 @@ PRODUCT_PACKAGES += \
     libadm \
     libadsp_default_listener \
     libadsprpc \
-    libagm \
     libaidenoiser \
     libalCFR \
     libalLDC \
@@ -1112,7 +1107,6 @@ PRODUCT_PACKAGES += \
     libanc_dc_base \
     libanc_hdr \
     libancbase \
-    libar-pal \
     libarcsoft_beautyshot \
     libarcsoft_dualcam_refocus_image \
     libarcsoft_dualcam_refocus_video \
@@ -1125,7 +1119,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_super_night_raw \
     libarcsoft_zoom_high_dynamic_range \
     libaudio_log_utils \
-    libawcal \
     libbacklight-calib \
     libbeauty_face_interface \
     libbitmlengine \
@@ -1218,7 +1211,6 @@ PRODUCT_PACKAGES += \
     libizat_core \
     libjnihelper \
     libjpege \
-    libkaraokepal \
     libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils \
