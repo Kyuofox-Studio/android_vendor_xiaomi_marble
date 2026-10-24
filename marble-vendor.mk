@@ -1118,7 +1118,6 @@ PRODUCT_PACKAGES += \
     camera.xiaomi \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
-    consumerir.qcom \
     fingerprint.goodix.default \
     gyro_fusion_interface \
     vendor.qti.esepowermanager@1.1-impl \
