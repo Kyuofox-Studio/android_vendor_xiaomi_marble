@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/acdbdata/ukee_qrd/QRD_ukee_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ukee_qrd/QRD_ukee_workspaceFileXml.qwsp \
     vendor/xiaomi/marble/proprietary/vendor/etc/audio_cloud_control_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_cloud_control_white_list.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/backend_conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/backend_conf.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/xiaomi/marble/proprietary/vendor/etc/camera/102_SummerDay.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/102_SummerDay.png \
     vendor/xiaomi/marble/proprietary/vendor/etc/camera/103_Fantasy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/103_Fantasy.png \
     vendor/xiaomi/marble/proprietary/vendor/etc/camera/104_Meet.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/104_Meet.png \
@@ -803,7 +802,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/xiaomi_ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/xiaomi_ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list_preference.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/xiaomi/marble/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
     vendor/xiaomi/marble/proprietary/vendor/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b01 \
     vendor/xiaomi/marble/proprietary/vendor/firmware/CAMERA_ICP.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b02 \
@@ -1064,9 +1062,6 @@ PRODUCT_PACKAGES += \
     libar-gpr \
     libar-gsl \
     libar-pal \
-    libasn1cper \
-    libasn1crt \
-    libasn1crtx \
     libats \
     libaudio_log_utils \
     libaudiocloudctrl \
@@ -1123,7 +1118,6 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libfmpal \
     libgame_enhance \
-    libgdtap \
     libgnsspps \
     libgpudataproducer \
     libgrpc++_unsecure \
@@ -1367,8 +1361,6 @@ PRODUCT_PACKAGES += \
     libxmi_slow_motion_mein \
     libxml \
     libxtadapter \
-    libxtwifi_server_protocol \
-    libxtwifi_server_protocol_uri_v3 \
     libwvdrmengine \
     nfc_nci.nqx.default.hw.v1 \
     qcrilInterfaces \
@@ -2265,8 +2257,6 @@ PRODUCT_PACKAGES += \
     wfdvndservice \
     wifidisplayhalservice \
     xtra-daemon \
-    xtwifi-client \
-    xtwifi-inet-agent \
     dpmd \
     qccsyshal@1.2-service \
     qccsyshal_aidl-service \
