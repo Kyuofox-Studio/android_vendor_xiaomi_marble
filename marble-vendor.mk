@@ -1358,7 +1358,6 @@ PRODUCT_PACKAGES += \
     libmdmimgload \
     libmdsprpc \
     libmemperfd \
-    libmemunreachable \
     libmemutils \
     libmeters-ns \
     libmeters \
