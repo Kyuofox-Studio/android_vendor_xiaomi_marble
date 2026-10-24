@@ -1252,7 +1252,6 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libsdmextension \
     libsdsprpc \
-    libsensor_cal@2.0 \
     libsensorcal \
     libsensorslog \
     libshsc \
