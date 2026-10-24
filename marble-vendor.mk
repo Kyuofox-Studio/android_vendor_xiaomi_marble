@@ -1828,7 +1828,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
-    vendor.xiaomi.hardware.mtdservice@1.0 \
     vendor.xiaomi.hardware.quickcamera@1.0 \
     vendor_lib_rfsa_adsp_bm2n00_bin \
     vendor_lib_rfsa_adsp_bm2n01_bin \
