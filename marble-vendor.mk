@@ -1353,9 +1353,6 @@ PRODUCT_PACKAGES += \
     sensors.ultrasoundproximity \
     libasphere \
     libmisoundfx \
-    libqcompostprocbundle \
-    libqcomvisualizer \
-    libqcomvoiceprocessing \
     libshoebox \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
