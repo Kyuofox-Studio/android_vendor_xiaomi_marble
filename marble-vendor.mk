@@ -1652,7 +1652,6 @@ PRODUCT_PACKAGES += \
     sensors.touch.detect \
     sensors.ultrasoundproximity \
     libasphere \
-    libmisoundfx \
     libshoebox \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
