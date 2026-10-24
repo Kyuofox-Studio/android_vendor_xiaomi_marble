@@ -1536,7 +1536,6 @@ PRODUCT_PACKAGES += \
     libril-qc-ltedirectdisc \
     libril-qc-radioconfig \
     librilqmimiscservices \
-    librmnetctl \
     librmsclib1 \
     librpmb \
     libscveCommon \
