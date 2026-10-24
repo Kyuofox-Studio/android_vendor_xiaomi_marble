@@ -1267,7 +1267,7 @@ PRODUCT_PACKAGES += \
     libgf_hal \
     libgnsspps \
     libgoodixhwfingerprint \
-    libgrpc++_unsecure \
+    libgrpc++_unsecure_prebuilt \
     libhdr10plus \
     libhdr_backlight_adapter \
     libhdr_tm \
