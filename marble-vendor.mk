@@ -1034,7 +1034,6 @@ PRODUCT_PACKAGES += \
     libbatterylistener \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
-    libbt-hidlclient \
     libbtnv \
     libc++_shared \
     libcacertclient \
