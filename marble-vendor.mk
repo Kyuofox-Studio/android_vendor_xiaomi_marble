@@ -578,10 +578,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.sensors.qesdk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qesdk.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
-    vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc \
-    vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc \
-    vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc \
     vendor/xiaomi/marble/proprietary/vendor/etc/init/vmmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vmmgr.rc \
@@ -1198,7 +1195,6 @@ PRODUCT_PACKAGES += \
     libmdsprpc \
     libmemunreachable \
     libmemutils \
-    libmfido \
     libmialgo_ai_vision \
     libmialgo_utils \
     libminkdescriptor \
@@ -1209,7 +1205,6 @@ PRODUCT_PACKAGES += \
     libmm-hdcpmgr \
     libmm-omxcore \
     libmmhardware \
-    libmt \
     libnetmgr \
     libnetmgr_common \
     libnetmgr_datapath_proxy \
@@ -1373,7 +1368,6 @@ PRODUCT_PACKAGES += \
     libtestutils \
     libthermalclient \
     libthreadutils \
-    libtida@1.2 \
     libtime_genoff \
     libtinyxml2_1 \
     libtrustedapploader \
@@ -1568,14 +1562,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.qesdsys-V1-ndk_platform \
     vendor.qti.qspmhal@1.0-impl \
     vendor.qti.qspmhal@1.0 \
-    vendor.xiaomi.hardware.mfidoca@1.0 \
     vendor.xiaomi.hardware.mlipay@1.0 \
     vendor.xiaomi.hardware.mlipay@1.1 \
     vendor.xiaomi.hardware.mtdservice@1.0 \
     vendor.xiaomi.hardware.quickcamera@1.0 \
-    vendor.xiaomi.hardware.tidaservice@1.0 \
-    vendor.xiaomi.hardware.tidaservice@1.1 \
-    vendor.xiaomi.hardware.tidaservice@1.2 \
     vendor.xiaomi.sensor.citsensorservice@1.1 \
     vendor.xiaomi.sensor.citsensorservice@2.0 \
     libeai_fixed_32 \
@@ -1878,7 +1868,6 @@ PRODUCT_PACKAGES += \
     libmorpho_ubwc \
     libmorpho_video_stabilizer \
     libmpbase \
-    libmt@1.3 \
     libomp \
     libopencv \
     libopencv3a \
@@ -1964,9 +1953,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
-    vendor.xiaomi.hardware.mtdservice@1.1 \
-    vendor.xiaomi.hardware.mtdservice@1.2 \
-    vendor.xiaomi.hardware.mtdservice@1.3 \
     vendor.xiaomi.sensor.communicate@1.0 \
     vendor_lib_rfsa_adsp_bm2n00_bin \
     vendor_lib_rfsa_adsp_bm2n01_bin \
@@ -2166,10 +2152,7 @@ PRODUCT_PACKAGES += \
     manifest_lahaina_identity.xml \
     manifest_non_qmaa.xml \
     manifest_non_qmaa_extn.xml \
-    manifest_vendor.xiaomi.hardware.mfidoca.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
-    manifest_vendor.xiaomi.hardware.mtdservice.xml \
-    manifest_vendor.xiaomi.hardware.tidaservice.xml \
     qtiradio-saidl.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss-service.xml \
@@ -2203,7 +2186,6 @@ PRODUCT_PACKAGES += \
     edgnss-daemon \
     embmsslServer \
     engine-service \
-    fidoca \
     garden_app \
     android.hardware.bluetooth@1.0-service-qti \
     android.hardware.drm@1.4-service.widevine \
@@ -2260,7 +2242,6 @@ PRODUCT_PACKAGES += \
     mlipayd@1.1 \
     modemManager \
     msm_irqbalance \
-    mtd@1.3 \
     netmgrd \
     nqnfcinfo \
     nv_mac \
@@ -2308,7 +2289,6 @@ PRODUCT_PACKAGES += \
     test-nusensors \
     tftp_server \
     thermal-engine-v2 \
-    tidad@1.2 \
     time_daemon \
     trusteduilistener \
     vendor.dpmd \
