@@ -1019,7 +1019,6 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libOmxCore \
     libOpenCL \
     libQ6MSFR_manager_stub \
     libQSEEComAPI \
@@ -1090,7 +1089,6 @@ PRODUCT_PACKAGES += \
     libcvpcpuRev_skel \
     libdapparamstorage \
     libdataitems \
-    libdeccfg \
     libdiag \
     libdigital-dimming \
     libdisp-aba \
@@ -1168,7 +1166,6 @@ PRODUCT_PACKAGES += \
     libmlipay \
     libmlipay@1.1 \
     libmm-hdcpmgr \
-    libmm-omxcore \
     libmmhardware \
     libnetmgr \
     libnetmgr_common \
@@ -1195,7 +1192,6 @@ PRODUCT_PACKAGES += \
     libperfgluelayer \
     libperfioctl \
     libperipheral_client \
-    libplatformconfig \
     libpsi \
     libqc2audio_base \
     libqc2audio_basecodec \
@@ -1314,10 +1310,6 @@ PRODUCT_PACKAGES += \
     libssc_default_listener \
     libssccalapi@2.0 \
     libssd \
-    libstagefright_soft_ac4dec \
-    libstagefright_soft_ddpdec \
-    libstagefright_softomx \
-    libstagefrighthw \
     libsubsystem_control \
     libsynergy_loc_api \
     libsynx \
@@ -1376,7 +1368,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.6 \
     vendor.display.color@1.7 \
     vendor.display.postproc@1.0 \
-    vendor.dolby.hardware.dms@2.0 \
     vendor.libdpmctmgr \
     vendor.libdpmfdmgr \
     vendor.libdpmframework \
