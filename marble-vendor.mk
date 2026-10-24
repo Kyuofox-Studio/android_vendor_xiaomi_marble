@@ -1054,7 +1054,6 @@ PRODUCT_PACKAGES += \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
     fingerprint.goodix.default \
-    gyro_fusion_interface \
     vendor.qti.esepowermanager@1.1-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
@@ -1107,10 +1106,6 @@ PRODUCT_PACKAGES += \
     libSnpeHtpV69Stub \
     libTrueSight \
     libXMFaceFocus \
-    lib_bt_aptx \
-    lib_bt_ble \
-    lib_bt_bundle \
-    lib_bt_lhdc \
     lib_misound_asc \
     libadm \
     libadsp_default_listener \
@@ -1123,9 +1118,6 @@ PRODUCT_PACKAGES += \
     libanc_dc_base \
     libanc_hdr \
     libancbase \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
     libar-pal \
     libarcsoft_beautyshot \
     libarcsoft_dualcam_refocus_image \
@@ -1138,10 +1130,7 @@ PRODUCT_PACKAGES += \
     libarcsoft_super_night_detection \
     libarcsoft_super_night_raw \
     libarcsoft_zoom_high_dynamic_range \
-    libats \
     libaudio_log_utils \
-    libaudiocloudctrl \
-    libaudioroute_ext \
     libawcal \
     libbacklight-calib \
     libbeauty_face_interface \
@@ -1256,8 +1245,6 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
-    liblx-ar_util \
-    liblx-osal \
     libmasc \
     libmcs \
     libmctfengine_stub \
@@ -1416,7 +1403,6 @@ PRODUCT_PACKAGES += \
     librelight_only \
     libremosaic_wrapper \
     libremosaiclib \
-    libresampler \
     libril-db \
     libril-legacy \
     libril-qc-ltedirectdisc \
@@ -1515,7 +1501,6 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libwvkeybox \
     libxiaomi_qcril \
-    libxlog \
     libxmi_hdr_checker \
     libxmi_high_dynamic_range \
     libxmi_slow_motion_mein \
@@ -1566,7 +1551,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.1 \
     vendor.qti.gnss-V3-ndk_platform \
     vendor.qti.gnss-service \
-    vendor.qti.hardware.AGMIPC@1.0-impl \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
