@@ -46461,14 +46461,6 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.qcom.usb",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qcom.usb.sh",
-    filename: "init.qcom.usb.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.qti.qcv",
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.qti.qcv.sh",
