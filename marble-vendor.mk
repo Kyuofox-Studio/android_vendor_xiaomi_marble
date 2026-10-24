@@ -437,7 +437,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/camera/xiaomi/thirdpartyrawsupernightyuv.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomi/thirdpartyrawsupernightyuv.json \
     vendor/xiaomi/marble/proprietary/vendor/etc/camera/xiaomi/thirdpartysnapshot.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomi/thirdpartysnapshot.json \
     vendor/xiaomi/marble/proprietary/vendor/etc/camera/xiaomiSceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomiSceneDetection.xml \
-    vendor/xiaomi/marble/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/xiaomi/marble/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -563,7 +562,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/etc/media_codecs_ukee.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_ukee.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/media_profiles_ukee.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_ukee.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/media_ukee/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_ukee/video_system_specs.json \
-    vendor/xiaomi/marble/proprietary/vendor/etc/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
     vendor/xiaomi/marble/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
     vendor/xiaomi/marble/proprietary/vendor/etc/models/acd/music.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/music.eai \
     vendor/xiaomi/marble/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
