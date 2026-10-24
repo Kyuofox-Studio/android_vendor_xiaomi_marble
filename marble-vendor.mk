@@ -1903,7 +1903,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qccsyshal_aidl-V1-ndk \
     vendor.qti.qccsyshal_aidl-halimpl \
     vendor.qti.qccvndhal_aidl-V1-ndk \
-    vendor.xiaomi.hardware.fx.tunnel@1.0 \
     CACertService \
     CneApp \
     IWlanService \
